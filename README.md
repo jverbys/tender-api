@@ -24,3 +24,5 @@ Installation:
 - php artisan db:seed
 6) To serve the api, run this command in the terminal in your repo directory:
 - php artisan serve
+
+The api should now work on http://localhost:8000/api/tenders
