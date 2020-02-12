@@ -10,7 +10,7 @@ class TendersController extends Controller
 {
     public function index()
     {
-        return TenderResource::collection(Tender::all());
+        return TenderResource::collection(Tender::paginate(10));
     }
 
     public function store()

@@ -18,7 +18,7 @@ class TendersTest extends TestCase
 
         $response = $this->get('/api/tenders');
 
-        $response->assertJsonCount(1)
+        $response->assertJsonCount(3)
             ->assertJson([
                 'data' => [
                     [    
