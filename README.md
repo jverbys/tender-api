@@ -8,6 +8,9 @@ Requirements:
 1) Have xampp or something simillar installed with apache, mysql and PHP >7.2.
 2) Have composer installed.
 
+To install laravel onto your machine, run this command in the terminal:
+- composer global require laravel/installer
+
 Installation:
 1) Clone the git repo onto your machine.
 2) Commands to run in the terminal in your repo directory:
